@@ -413,3 +413,219 @@ Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-02 12:42:58 +0530
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 12:42:58 +0530
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-09-02 14:42:52 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 145ms (Views: 121.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-02 14:42:53 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 14:42:53 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 14:42:53 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 14:42:53 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 14:42:53 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-02 14:42:53 +0530
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-02 14:42:53 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-02 14:42:53 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-02 14:42:53 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 14:42:53 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 14:43:03 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/kandarp/.rvm/gems/ruby-2.1.2/gems/railties-4.1.5/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2014-09-02 14:43:08 +0530
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-02 14:43:09 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-02 14:43:09 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-02 14:43:09 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 14:43:09 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 14:43:09 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 14:43:09 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-02 14:43:09 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-02 14:43:09 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 14:43:09 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 14:43:09 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2014-09-02 14:43:11 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (67.1ms)
+  Rendered posts/new.html.erb within layouts/application (70.5ms)
+Completed 200 OK in 76ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2014-09-02 14:43:12 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"urmQU7LOydyt/8XZNEF9AnFF90fHd38dxt2J8846e5k=", "post"=>{"title"=>"", "body"=>""}, "commit"=>"Create Post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  Rendered posts/_form.html.erb (4.8ms)
+  Rendered posts/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 21ms (Views: 12.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-02 14:43:12 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-02 14:43:12 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-02 14:43:12 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 14:43:12 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 14:43:12 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 14:43:12 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 14:43:12 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-02 14:43:12 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 14:43:12 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-02 14:43:12 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2014-09-02 14:44:39 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"urmQU7LOydyt/8XZNEF9AnFF90fHd38dxt2J8846e5k=", "post"=>{"title"=>"", "body"=>"LOL. What a joke"}, "commit"=>"Create Post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered posts/_form.html.erb (3.6ms)
+  Rendered posts/new.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 28ms (Views: 17.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-02 14:44:39 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-02 14:44:39 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-02 14:44:39 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 14:44:39 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 14:44:40 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 14:44:40 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-02 14:44:40 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 14:44:40 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-02 14:44:40 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 14:44:40 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2014-09-02 14:44:46 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"urmQU7LOydyt/8XZNEF9AnFF90fHd38dxt2J8846e5k=", "post"=>{"title"=>"Hahahahha", "body"=>"LOL. What a joke"}, "commit"=>"Create Post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "LOL. What a joke"], ["created_at", "2014-09-02 09:14:46.793589"], ["title", "Hahahahha"], ["updated_at", "2014-09-02 09:14:46.793589"]]
+  [1m[35m (10.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts/2
+Completed 302 Found in 53ms (ActiveRecord: 10.7ms)
+
+
+Started GET "/posts/2" for 127.0.0.1 at 2014-09-02 14:44:46 +0530
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered posts/show.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 27ms (Views: 23.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-02 14:44:47 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-02 14:44:47 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-02 14:44:47 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 14:44:47 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 14:44:47 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 14:44:47 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 14:44:47 +0530
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-02 14:44:47 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-02 14:44:47 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-02 14:44:47 +0530
